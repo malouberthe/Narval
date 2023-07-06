@@ -25,7 +25,7 @@ Contenu du repertoire
 - <code>data_sispea.ipynb</code>: Jupyter Notebook permettant d'éxecuter le code puis de comparer les réponses prédites avec les valeurs présentes dans sispea
 - <code>flan-t5-xl.ipynb</code>: Jupyter Notebook permettant d'évaluer un modèle, à partir d'un fichier de données étiquetées.
 - <code>question.csv</code>: Fichier source contenant les questions à poser, le mot clé à rechercher, ainsi que 'indicateur associé
-
+- <code>answers(2).json</code>:Fichier source contenant des textes annotés au format Squad ( Contexte, Question, Réponse), nécéssaire pour l'évaluation des modèles.
 
 
 
