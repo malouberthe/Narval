@@ -18,7 +18,7 @@ Le projet a été réalisé dans un environnement Python 3.10.
   Téléchargement des librairies requises
   <code>pip install requirements.txt</code>
 
-Ce que contient ce repertoire
+Contenu du repertoire
 -----
 - <code>requirements.txt</code>: fichier contenant les libairies nécéssaires à l'exécution du projet
 - <code>Fonction_finale.ipynb</code>: Jupyter Notebook permettant l'éxécution du code (usage, test du programme) 
