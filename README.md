@@ -21,7 +21,8 @@ Le projet a été réalisé dans un environnement Python 3.10.
 Contenu du repertoire
 -----
 - <code>requirements.txt</code>: fichier contenant les libairies nécéssaires à l'exécution du projet
-- <code>Fonction_finale.ipynb</code>: Jupyter Notebook permettant l'éxécution du code (usage, test du programme) 
+- <code>Fonction_finale.ipynb</code>: Jupyter Notebook permettant l'éxécution du code (usage, test du programme)
+- <code>Fonction_finale_génrique.ipynb</code>: Code identique à celui ci-dessus, mais des indications en plus pour généraliser à d'autres cas d'usages
 - <code>data_sispea.ipynb</code>: Jupyter Notebook permettant d'éxecuter le code puis de comparer les réponses prédites avec les valeurs présentes dans sispea
 - <code>flan-t5-xl.ipynb</code>: Jupyter Notebook permettant d'évaluer un modèle, à partir d'un fichier de données étiquetées.
 - <code>question.csv</code>: Fichier source contenant les questions à poser, le mot clé à rechercher, ainsi que l'indicateur associé
