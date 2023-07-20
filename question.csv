@@ -1,0 +1,48 @@
+﻿question,mot
+0,Quel est le prix de service au m3 pour l'eau potable ?,prix
+1,Quel est le prix du service au m3 pour l'assinissement de l'eau ?,prix
+2,Quelle est la connaissance du réseau en eau potable ? ,connaissance
+3,Quel est le taux de connaissance du réseau en assainissement de l'eau?,connaissance
+4,Quel est le taux de renouvellement des réseaux en eau potable ?,renouvellement
+5,Quel est le taux de renouvellement des réseaux en assainissement collectif  ?,renouvellement
+6,Quelle est la conformité microbiologique de l'eau ? , conformité
+7,Quelle est la conformité physico-chimique de l'eau ? , conformité
+8,Quel est le rendement du réseau de distribution? ,rendement
+9,Quel est la conformité dispositifs assinissement non collectif? ,conformité
+10,Quelle est la valeur de D102.0?,D102.0
+11,Quelle est la valeur de D204.0?,D204.0
+12,Quelle est la valeur de P103.2?,P103.2
+13,Quelle est la valeur de P202.2 ?,P202.2
+14,Quelle est la valeur de P107.2?,P107.2
+15,Quelle est la valeur de P253.2?,P253.2
+16,Quelle est la valeur de P101.1?,P101.1
+17,Quelle est la valeur de P102.1? ,P102.1
+18,Quelle est la valeur de P104.3?,P104.3
+19,Quelle est la valeur de P301.3?,P301.3
+20, Quelle est la valeur de l'indicateur D102.0?,D102.0
+21, Quelle est la valeur de l'indicateur D104.0?,D104.0
+22, Quelle est la valeur de l'indicateur P103.2?,P103.2
+23, Quelle est la valeur de l'indicateur P202.2?,P202.2
+24, Quelle est la valeur de l'indicateur P107.2?,P107.2
+25, Quelle est la valeur de l'indicateur P253.2?,P253.2
+26, Quelle est la valeur de l'indicateur P101.1?P101.1
+27, Quelle est la valeur de l'indicateur P102.1?,P102.1
+28, Quelle est la valeur de l'indicateur P104.3?,P104.3
+29, Quelle est la valeur de l'indicateur P301.3?,P301.3
+30, Quel est le taux de conformité des dispositifs d'assainissement non collectifs?, coformité
+31,Quelle est la conformité microbiologique de l'eau ? , microbiologie
+32,Quelle est la conformité physico-chimique de l'eau ? , physico-chimie
+33,Quelle est la conformité microbiologique de l'eau ? , microbiologique
+34,Quelle est la conformité physico-chimique de l'eau ? , physico-chimique
+35, Quel est le total de points de connaissance du réseau?,connaissance
+36,Quelle est le pourcentage de conformité des dispositifs d'assainissement non collectifs?,dispositifs
+37,Quel est le prix de service au m3 pour l'eau potable (D102.0) ?,prix
+38,Quel est le prix du service au m3 pour l'assinissement de l'eau (D204.0)?,prix
+39,Quelle est la connaissance du réseau en eau potable(P103.2) ? ,connaissance
+40,Quel est le taux de connaissance du réseau en assainissement de l'eau(P202.2)?,connaissance
+41,Quel est le taux de renouvellement des réseaux en eau potable (P107.2)?,renouvellement
+42,Quel est le taux de renouvellement des réseaux en assainissement collectif (P253.2) ?,renouvellement
+43,Quelle est la conformité microbiologique de l'eau (P101.1) ? , conformité
+44,Quelle est la conformité physico-chimique de l'eau(P102.1) ? , conformité
+45,Quel est le rendement du réseau de distribution(P104.3)? ,rendement
+46,Quel est la conformité dispositifs assinissement non collectif(P301.3)? ,conformité
