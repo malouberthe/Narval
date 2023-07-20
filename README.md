@@ -27,7 +27,7 @@ Contenu du repertoire
 - <code>Fonction_finale.ipynb</code>: Jupyter Notebook permettant l'éxécution du code (usage, test du programme) *(point de vue: utilisateur du programme)*
 - <code>Fonction_finale_génerique.ipynb</code>: Code identique à celui ci-dessus, mais des indications en plus pour généraliser à d'autres cas d'usages *(point de vue: développeur pour un autre cas d'usage)*
 - <code>data_sispea.ipynb</code>: Jupyter Notebook permettant d'éxecuter le code, puis de comparer les réponses prédites avec les valeurs présentes dans sispea, pour obtenir des métriques de performance *(point de vue: développeur sur ce cas d'usage)*
--<code>bornes.csv</code>: Fichier csv contenant les bornes spécifiques aux indicateurs de SISPEA.
+- <code>bornes.csv</code>: Fichier csv contenant les bornes spécifiques aux indicateurs de SISPEA.
 
 
 
