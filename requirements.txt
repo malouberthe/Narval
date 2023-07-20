@@ -1,0 +1,11 @@
+datasets
+regex
+transformers[sentencepiece]
+PyPDF2
+scikit-learn
+unidecode
+accelerate
+openpyxl
+matplotlib
+seaborn
+google
