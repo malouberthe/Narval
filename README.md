@@ -20,17 +20,26 @@ Le projet a été réalisé dans un environnement Python 3.10.
 
 Contenu du repertoire
 -----
-- <code>requirements.txt</code>: Fichier contenant les libairies nécéssaires à l'exécution du projet
-- <code>answers(2).json</code>: Fichier source contenant des textes annotés au format Squad ( Contexte, Question, Réponse), nécéssaire pour l'évaluation des modèles
-- <code>question.csv</code>: Fichier source contenant les questions à poser, le mot clé à rechercher, ainsi que l'indicateur associés.
-- <code>bornes.csv</code>: Fichier csv contenant les bornes spécifiques aux indicateurs de SISPEA.
-- <code>flan-t5-xl.ipynb</code>: Jupyter Notebook permettant d'évaluer un modèle, à partir d'un fichier de données étiquetées
-- <code>Fonction_finale.ipynb</code>: Jupyter Notebook permettant l'éxécution du code (usage, test du programme) *(point de vue: utilisateur du programme)*
-- <code>Fonction_finale_génerique.ipynb</code>: Code identique à celui ci-dessus, mais des indications en plus pour généraliser à d'autres cas d'usages *(point de vue: développeur pour un autre cas d'usage)*
-- <code>data_sispea.ipynb</code>: Jupyter Notebook permettant d'éxecuter le code, puis de comparer les réponses prédites avec les valeurs présentes dans sispea, pour obtenir des métriques de performance *(point de vue: développeur sur ce cas d'usage)*
-- <code>data_indic.ipynb</code>: Idem que le fichier précedent, mais calcule des métriques par indicateur et non par PDF.
-- <code>scrap_test.ipynb</code>: Fonction_finale, mais qui va collecter les RPQS en ligne automatiquement.
-- <code>collect_pdf.ipynb</code>: Méthode de web scraping et crawling permet de collecter en masse les RPQS en logne et renvoie un fichier excel avec le nom de la collectivité, l'année et la compétence(AC ou EP)
+- src:
+  - <code>requirements.txt</code>: Fichier contenant les libairies nécéssaires à l'exécution du projet
+  - <code>answers(2).json</code>: Fichier source contenant des textes annotés au format Squad ( Contexte, Question, Réponse), nécéssaire pour l'évaluation des modèles
+  - <code>question.csv</code>: Fichier source contenant les questions à poser, le mot clé à rechercher, ainsi que l'indicateur associés.
+  - <code>bornes.csv</code>: Fichier csv contenant les bornes spécifiques aux indicateurs de SISPEA.
+  - <code>results.csv</code>: Fichier csv contenant les résultats des rapports testés.
+  - <code>indic_metric.csv</code>: Fichier csv contenant les résultats des rapports testés mais triés par indicateurs.
+- evaluations_modeles:
+  - <code>eval_etalab_rpqs.ipynb</code>: Jupyter Notebook permettant d'évaluer le modèle d'etalab, à partir d'un fichier de données étiquetées
+  - <code>flan-t5-base.ipynb</code>: Jupyter Notebook permettant d'évaluer le modèle flan-t5-base, à partir d'un fichier de données étiquetées
+  - <code>flan-t5-large.ipynb</code>: Jupyter Notebook permettant d'évaluer le modèle flan-t5-large, à partir d'un fichier de données étiquetées
+  - <code>flan-t5-xl.ipynb</code>: Jupyter Notebook permettant d'évaluer le modèle flan-t5-xl, à partir d'un fichier de données étiquetées
+  - <code>flan-t5-xxl.ipynb</code>: Jupyter Notebook permettant d'évaluer le modèle flan-t5-xxl, à partir d'un fichier de données étiquetées
+- fonctions_generales:   
+  - <code>Fonction_finale.ipynb</code>: Jupyter Notebook permettant l'éxécution du code (usage, test du programme) *(point de vue: utilisateur du programme)*
+  - <code>Fonction_finale_génerique.ipynb</code>: Code identique à celui ci-dessus, mais des indications en plus pour généraliser à d'autres cas d'usages *(point de vue: développeur pour un autre cas d'usage)*
+  - <code>data_sispea.ipynb</code>: Jupyter Notebook permettant d'éxecuter le code, puis de comparer les réponses prédites avec les valeurs présentes dans sispea, pour obtenir des métriques de performance   *(point de vue: développeur sur ce cas d'usage)*
+  - <code>data_indic.ipynb</code>: Idem que le fichier précedent, mais calcule des métriques par indicateur et non par PDF.
+  - <code>scrap_test.ipynb</code>: Fonction_finale, mais qui va collecter les RPQS en ligne automatiquement.
+  - <code>collect_pdf.ipynb</code>: Méthode de web scraping et crawling permet de collecter en masse les RPQS en logne et renvoie un fichier excel avec le nom de la collectivité, l'année et la compétence(AC ou EP)
 
 
 
