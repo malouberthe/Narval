@@ -20,8 +20,8 @@ Le projet a été réalisé dans un environnement Python 3.10.
 
 Contenu du repertoire
 -----
+- <code>requirements.txt</code>: Fichier contenant les libairies nécéssaires à l'exécution du projet
 - src:
-  - <code>requirements.txt</code>: Fichier contenant les libairies nécéssaires à l'exécution du projet
   - <code>answers(2).json</code>: Fichier source contenant des textes annotés au format Squad ( Contexte, Question, Réponse), nécéssaire pour l'évaluation des modèles
   - <code>question.csv</code>: Fichier source contenant les questions à poser, le mot clé à rechercher, ainsi que l'indicateur associés.
   - <code>bornes.csv</code>: Fichier csv contenant les bornes spécifiques aux indicateurs de SISPEA.
