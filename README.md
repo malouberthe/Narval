@@ -27,6 +27,7 @@ Contenu du repertoire
   - <code>bornes.csv</code>: Fichier csv contenant les bornes spécifiques aux indicateurs de SISPEA.
   - <code>results.csv</code>: Fichier csv contenant les résultats des rapports testés.
   - <code>indic_metric.csv</code>: Fichier csv contenant les résultats des rapports testés mais triés par indicateurs.
+  - <code>collect_2023</code>: Ficier csv contenant les liens vers les RPQS récupérés en ligne, ainsi que la ville, l'année et la compétence associée. 
 - evaluations_modeles:
   - <code>eval_etalab_rpqs.ipynb</code>: Jupyter Notebook permettant d'évaluer le modèle d'etalab, à partir d'un fichier de données étiquetées
   - <code>flan-t5-base.ipynb</code>: Jupyter Notebook permettant d'évaluer le modèle flan-t5-base, à partir d'un fichier de données étiquetées
