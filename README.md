@@ -41,6 +41,8 @@ Contenu du repertoire
   - <code>data_indic.ipynb</code>: Idem que le fichier précedent, mais calcule des métriques par indicateur et non par PDF.
   - <code>scrap_test.ipynb</code>: Fonction_finale, mais qui va collecter les RPQS en ligne automatiquement.
   - <code>collect_pdf.ipynb</code>: Méthode de web scraping et crawling permet de collecter en masse les RPQS en logne et renvoie un fichier excel avec le nom de la collectivité, l'année et la compétence(AC ou EP)
+- rf :
+  -<code>rf.7z</code>: fichier zip contenant otu les csv des résultats finaux des 50 pdf testés 
 
 
 
