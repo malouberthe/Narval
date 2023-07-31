@@ -42,11 +42,11 @@ Contenu du repertoire
   - <code>data_sispea.ipynb</code>: Jupyter Notebook permettant d'éxecuter le code, puis de comparer les réponses prédites avec les valeurs présentes dans sispea, pour obtenir des métriques de performance   *(point de vue: développeur sur ce cas d'usage)*
   - <code>data_indic.ipynb</code>: Idem que le fichier précedent, mais calcule des métriques par indicateur et non par PDF.
   - <code>scrap_test.ipynb</code>: Fonction_finale, mais qui va collecter les RPQS en ligne automatiquement.
-  - <code>collect_pdf.ipynb</code>: Méthode de web scraping et crawling permet de collecter en masse les RPQS en logne et renvoie un fichier excel avec le nom de la collectivité, l'année et la compétence(AC ou EP)
+  - <code>collect_RPQS.ipynb</code>: Méthode de web scraping et crawling permet de collecter en masse les RPQS en logne et renvoie un fichier excel avec le nom de la collectivité, l'année et la compétence(AC ou EP)
 - rf :
    - <code>rf.7z</code>: fichier zip contenant otu les csv des résultats finaux des 50 pdf testés 
 - scrib :
-  - <code>collect_scrib.pdf</code>: Tuto pour l'éxecution du notebook collect_2023.ipynb
+  - <code>collect_scrib.pdf</code>: Tuto pour l'éxecution du notebook collect_RPQS.ipynb
   - <code>sspgit.pdf</code>: Tuto pour créer un service de jupyter sur le sspcloud lié à un dépôt git
   
 
