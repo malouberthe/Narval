@@ -29,7 +29,7 @@ Contenu du repertoire
   - <code>indic_metric.csv</code>: Fichier csv contenant les résultats des rapports testés mais triés par indicateurs.
   - <code>collect_2023.csv</code>: Ficier csv contenant les liens vers les RPQS récupérés en ligne, ainsi que la ville, l'année et la compétence associée.
   - <code>ville_df.csv</code>: Ficier csv contenant les noms et codes INSEE des communes de France. On l'utilise pour la collecte de RPQS.
-  - <code>data_sispea7z</code>: Zip contenant toutes les extraction depus sispea sur les données entre 2016 et 2021, sur l'ensemble du territoire. Nécessaires pour l'exécution des codes "data_sispea" et "scrap_test". 
+  - <code>data_sispea.7z</code>: Zip contenant toutes les extraction depus sispea sur les données entre 2016 et 2021, sur l'ensemble du territoire. Nécessaires pour l'exécution des codes "data_sispea" et "scrap_test". 
 - evaluations_modeles:
   - <code>eval_etalab_rpqs.ipynb</code>: Jupyter Notebook permettant d'évaluer le modèle d'etalab, à partir d'un fichier de données étiquetées
   - <code>flan-t5-base.ipynb</code>: Jupyter Notebook permettant d'évaluer le modèle flan-t5-base, à partir d'un fichier de données étiquetées
